@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },   
+        "publicIpName": {
+            "value": "az303vm-ip"
+        },
+        "publicIPAllocationMethod": {
+            "value": "Static"
+        },
+        "publicIpSku": {
+            "value": "Standard"
+        },
+        "OSVersion": {
+            "value": "2016-Datacenter"
+        },
+        "vmName": {
+            "value": "az303vm"
+        },
+        "vmSize": {
+            "value": "Standard_B2s"
+        }
+    }
+}
